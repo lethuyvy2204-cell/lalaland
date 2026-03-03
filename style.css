@@ -23,7 +23,7 @@ h1 {
 .header{
   flex: 15%;
   background-color: lightgrey;
-  background: url("images/banerchothuyvy.jpg") center;
+  background: url("images/bannerhoa.jpg") center;
 }
 .menu{
   flex: 5%;
