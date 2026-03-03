@@ -23,6 +23,7 @@ h1 {
 .header{
   flex: 15%;
   background-color: lightgrey;
+  background: url()
 }
 .menu{
   flex: 5%;
