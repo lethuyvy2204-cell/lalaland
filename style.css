@@ -3,7 +3,7 @@ h1 {
   top-margin: 25pt;
 }
 .tuade {
-  color: pink;
+  color: black;
   font-family: Arial;
   top-margin: 20pt;
   font-size: 20pt;
@@ -22,7 +22,7 @@ h1 {
 }
 .header{
   flex: 15%;
-  background-color: violet;
+  background-color: pink;
   background: url("images/bannerhoa.jpg") center/100%;
   aspect-ratio: 6 / 1;
 }
