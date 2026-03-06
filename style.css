@@ -22,22 +22,23 @@ h1 {
 }
 .header{
   flex: 15%;
-  background-color: lightgrey;
-  background: url("images/bannerhoa.jpg") center;
+  background-color: violet;
+  background: url("images/bannerhoa.jpg") center/100%;
+  aspect-ratio: 6 / 1;
 }
 .menu{
   flex: 5%;
-  background-color: darkgrey;
+  background-color: violet;
   display: flex;
   align-items: center;
 }
 .menu a{
   padding: 15px 20px;
-  color: blue;
+  color: pink;
 }
 .menu hover{
   background-color: lightgray;
-  color:black;
+  color: white;
 }
 .content{
   flex: 70%;
