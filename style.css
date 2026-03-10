@@ -28,16 +28,16 @@ h1 {
 }
 .menu{
   flex: 5%;
-  background-color: violet;
+  background-color: #FF99CC ;
   display: flex;
   align-items: center;
 }
 .menu a{
   padding: 15px 20px;
-  color: pink;
+  color: thistle;
 }
 .menu hover{
-  background-color: lightgray;
+  background-color: thistle;
   color: white;
 }
 .content{
@@ -52,5 +52,5 @@ h1 {
 }
 .footer{
   flex: 10%;
-  background-color: lightgray;
+  background-color: PaleVioletRed;
 }
