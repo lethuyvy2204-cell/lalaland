@@ -36,9 +36,9 @@ h1 {
   padding: 15px 20px;
   color: thistle;
 }
-.menu hover{
+.menu a: hover{
   background-color: thistle;
-  color: white;
+  color: lightgray;
 }
 .content{
   flex: 70%;
