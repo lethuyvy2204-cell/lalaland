@@ -36,8 +36,8 @@ h1 {
   padding: 15px 20px;
   color: thistle;
 }
-.menu a: hover{
-  background-color: thistle;
+.menu a:hover{
+  background-color: grey;
   color: lightgray;
 }
 .content{
