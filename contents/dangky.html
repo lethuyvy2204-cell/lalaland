@@ -3,6 +3,15 @@
     <meta charset="UTF-8">
   </head>
   <body>
+    <h1> CẢM ƠN BẠN ĐÃ ĐÓNG GÓP Ý KIẾN </h1>
+    <p> Chúng tôi xin ghi nhận ý kiến của bạn và sẽ cải tiến, nâng cao chất lượng phục vụ hơn nữa trong thời gian sắp tới</p>
+    <p id = "kq"></p>
+    <script>
+      let params = name URLSearchParams (window.location.search);
+      let Ten = params.get("txtTen");
+      let yk = params.get("txtYk");
+      document.getElementById("kq").innerHTML = " CẢM ƠN BẠN " + Ten + "ĐÃ GÓP Ý" + "<br><br> Chúng tôi xin ghi nhận ý kiến của bạn như sau: <br>" + yk;
+    </script>
     <form action = "hoithao.html">
       <input type = "submit" name = "cmd" value = "BACK">
     </form>
